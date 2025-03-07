@@ -1,16 +1,5 @@
 import 'package:get_it/get_it.dart';
-
-mixin MethodsInjector {
-  final _i = GetIt.instance;
-
-  void registerSingleton<T extends Object>(T object) {
-    _i.registerSingleton(object);
-  }
-
-  void registerFactory<T extends Object>(T Function() objectFunction) {
-    _i.registerFactory(objectFunction);
-  }
-}
+import 'package:learn/core/dependency_injection/mixin/injector_methods_mixin.dart';
 
 abstract class ModuleInjector with MethodsInjector {
   void registerModule() {
@@ -39,7 +28,5 @@ abstract class ModuleInjector with MethodsInjector {
 
   void controllers();
 
-  void _resetModule() {
-    _i.reset();
-  }
+  void _resetModule() {}
 }
