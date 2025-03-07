@@ -1,16 +1,7 @@
-# learn
+## Projeto lean busca montar uma arquitetura flutter fácil de entender, descentralizada e escalável!
 
-A new Flutter project.
+### O projeto surgiu com intuito de facilitar o uso e compreensão de arquiteturas para pessoas com menos vivência na linguagem.
 
-## Getting Started
+### Padrões criacionais utilizados: Singleton, Factory, Abstract Factory e Builder.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### No momento o projeto foi inicado com flutter 3.27.4
