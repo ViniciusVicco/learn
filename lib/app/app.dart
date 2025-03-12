@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:learn/app/presentation/auth/module/auth_module.dart';
 import 'package:learn/app/presentation/loading/loading_page.dart';
+import 'package:learn/core/module/manager/module_manager.dart';
 
 class App extends StatelessWidget {
   final ModuleManager moduleManager;

@@ -1,4 +1,3 @@
-import 'package:get_it/get_it.dart';
 import 'package:learn/core/dependency_injection/mixin/injector_methods_mixin.dart';
 
 abstract class ModuleInjector with MethodsInjector {
