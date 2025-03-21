@@ -4,6 +4,4 @@ class AuthPageController extends Controller {
   void onAlreadyHasAccountTaped() {}
 
   void onRegisterAccountTaped() {}
-
-  void onKeepAsAnonimousTaped() {}
 }

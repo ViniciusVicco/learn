@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learn/app/presentation/home/pages/home_page.dart';
 import 'package:learn/design/design_sytem_mixin.dart';
 import 'package:learn/design/utils/spacing/spacing.dart';
 import 'package:lottie/lottie.dart';
@@ -30,7 +31,8 @@ class _AuthPageState extends State<AuthPage> with DesignSytemMixin {
             Spacing.md(),
             ElevatedButton(
                 onPressed: () {
-                  Navigator.of(context).pop();
+                  Navigator.of(context)
+                      .pushReplacementNamed(HomePage.routeName);
                 },
                 child: Text(
                   "Ok, entendi",

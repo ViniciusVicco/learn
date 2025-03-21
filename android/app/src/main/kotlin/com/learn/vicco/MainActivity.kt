@@ -1,4 +1,4 @@
-package com.example.learn
+package com.learn.vicco
 
 import io.flutter.embedding.android.FlutterActivity
 
