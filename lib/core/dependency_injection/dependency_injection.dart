@@ -2,7 +2,6 @@ import 'package:learn/core/dependency_injection/mixin/injector_methods_mixin.dar
 
 abstract class ModuleInjector with MethodsInjector {
   void registerModule() {
-    _resetModule();
     queueInstanciation();
   }
 
@@ -26,6 +25,4 @@ abstract class ModuleInjector with MethodsInjector {
   void dataSources();
 
   void controllers();
-
-  void _resetModule() {}
 }

@@ -1,3 +1,4 @@
+import 'package:get_it/get_it.dart';
 import 'package:learn/app/presentation/home/pages/home_controller.dart';
 import 'package:learn/app/presentation/home/pages/home_store.dart';
 import 'package:learn/core/dependency_injection/dependency_injection.dart';
@@ -5,7 +6,8 @@ import 'package:learn/core/dependency_injection/dependency_injection.dart';
 class HomeInjector extends ModuleInjector {
   @override
   void controllers() {
-    registerFactory(() => HomeController());
+    registerFactory(
+        () => HomeController(store: GetIt.instance.get<HomeStore>()));
   }
 
   @override
