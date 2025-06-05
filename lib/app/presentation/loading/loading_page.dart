@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:learn/app/presentation/auth/pages/auth_page.dart';
+import 'package:learn/app/presentation/home/pages/home_page.dart';
 
 class LoadingPage extends StatefulWidget {
   static String routeName = '/LoadingPage';
@@ -16,7 +17,8 @@ class _LoadingPageState extends State<LoadingPage> {
     Future.delayed(Duration(milliseconds: 1500)).then(
       (value) {
         if (mounted) {
-          Navigator.of(context).popAndPushNamed(AuthPage.routeName);
+          //TODO: manage Auth user
+          Navigator.of(context).popAndPushNamed(HomePage.routeName);
         }
       },
     );

@@ -1,0 +1,488 @@
+{
+    "class": "Necromancer",
+    "description": "Um Necromante é alguém que busca empunhar magia para obter domínio sobre a vida e a morte. Eles manipulam a força vital de si mesmos e dos outros para alimentar suas magias e habilidades. Necromantes são frequentemente evitados pela sociedade devido à natureza sombria de sua magia.",
+    "hit_points": {
+        "hit_dice": "1d6 por nível de Necromante",
+        "hit_points_at_1st_level": "6 + modificador de Constituição",
+        "hit_points_at_higher_levels": "1d6 (ou 4) + modificador de Constituição por nível de Necromante após o 1º"
+    },
+    "proficiencies": {
+        "armor": [
+            "Armadura leve"
+        ],
+        "weapons": [
+            "Armas simples"
+        ],
+        "tools": [],
+        "saving_throws": [
+            "Constituição",
+            "Carisma"
+        ],
+        "skills": [
+            "Escolha dois entre: Arcana, Enganação, História, Intimidação, Medicina, Percepção, Religião"
+        ]
+    },
+    "equipment": [
+        "(a) uma foice ou (b) duas adagas",
+        "(a) um pacote de aventureiro ou (b) um pacote de explorador",
+        "Um foco arcano",
+        "Uma armadura de couro batido"
+    ],
+    "quick_build": {
+        "primary_ability": [
+            "Carisma"
+        ],
+        "secondary_abilities": [
+            "Constituição",
+            "Destreza"
+        ],
+        "background": "Charlatão"
+    },
+    "habilities": [
+        {
+            "nivel": 1,
+            "bonus_proficiencia": 2,
+            "habilidades": [
+                "Conjuração",
+                "Sufusão Necrótica"
+            ],
+            "truques_conhecidos": 2,
+            "magias_conhecidas": 2,
+            "slots_magia": {
+                "1º": 2,
+                "2º": 0,
+                "3º": 0,
+                "4º": 0,
+                "5º": 0,
+                "6º": 0,
+                "7º": 0,
+                "8º": 0,
+                "9º": 0
+            }
+        },
+        {
+            "nivel": 2,
+            "bonus_proficiencia": 2,
+            "habilidades": [
+                "Ocultismo do Necromante"
+            ],
+            "truques_conhecidos": 2,
+            "magias_conhecidas": 3,
+            "slots_magia": {
+                "1º": 3,
+                "2º": 0,
+                "3º": 0,
+                "4º": 0,
+                "5º": 0,
+                "6º": 0,
+                "7º": 0,
+                "8º": 0,
+                "9º": 0
+            }
+        },
+        {
+            "nivel": 3,
+            "bonus_proficiencia": 2,
+            "habilidades": [
+                "Colheita da Alma"
+            ],
+            "truques_conhecidos": 2,
+            "magias_conhecidas": 4,
+            "slots_magia": {
+                "1º": 4,
+                "2º": 2,
+                "3º": 0,
+                "4º": 0,
+                "5º": 0,
+                "6º": 0,
+                "7º": 0,
+                "8º": 0,
+                "9º": 0
+            }
+        },
+        {
+            "nivel": 4,
+            "bonus_proficiencia": 2,
+            "habilidades": [
+                "Aumento no Valor de Habilidade"
+            ],
+            "truques_conhecidos": 3,
+            "magias_conhecidas": 5,
+            "slots_magia": {
+                "1º": 4,
+                "2º": 3,
+                "3º": 0,
+                "4º": 0,
+                "5º": 0,
+                "6º": 0,
+                "7º": 0,
+                "8º": 0,
+                "9º": 0
+            }
+        },
+        {
+            "nivel": 5,
+            "bonus_proficiencia": 3,
+            "habilidades": [
+                "Exumação Espontânea"
+            ],
+            "truques_conhecidos": 3,
+            "magias_conhecidas": 6,
+            "slots_magia": {
+                "1º": 4,
+                "2º": 3,
+                "3º": 2,
+                "4º": 0,
+                "5º": 0,
+                "6º": 0,
+                "7º": 0,
+                "8º": 0,
+                "9º": 0
+            }
+        },
+        {
+            "nivel": 6,
+            "bonus_proficiencia": 3,
+            "habilidades": [
+                "Característica de Ocultismo"
+            ],
+            "truques_conhecidos": 3,
+            "magias_conhecidas": 7,
+            "slots_magia": {
+                "1º": 4,
+                "2º": 3,
+                "3º": 3,
+                "4º": 0,
+                "5º": 0,
+                "6º": 0,
+                "7º": 0,
+                "8º": 0,
+                "9º": 0
+            }
+        },
+        {
+            "nivel": 7,
+            "bonus_proficiencia": 3,
+            "habilidades": [],
+            "truques_conhecidos": 3,
+            "magias_conhecidas": 8,
+            "slots_magia": {
+                "1º": 4,
+                "2º": 3,
+                "3º": 3,
+                "4º": 1,
+                "5º": 0,
+                "6º": 0,
+                "7º": 0,
+                "8º": 0,
+                "9º": 0
+            }
+        },
+        {
+            "nivel": 8,
+            "bonus_proficiencia": 3,
+            "habilidades": [
+                "Aumento no Valor de Habilidade"
+            ],
+            "truques_conhecidos": 3,
+            "magias_conhecidas": 9,
+            "slots_magia": {
+                "1º": 4,
+                "2º": 3,
+                "3º": 3,
+                "4º": 2,
+                "5º": 0,
+                "6º": 0,
+                "7º": 0,
+                "8º": 0,
+                "9º": 0
+            }
+        },
+        {
+            "nivel": 9,
+            "bonus_proficiencia": 4,
+            "habilidades": [],
+            "truques_conhecidos": 3,
+            "magias_conhecidas": 10,
+            "slots_magia": {
+                "1º": 4,
+                "2º": 3,
+                "3º": 3,
+                "4º": 3,
+                "5º": 1,
+                "6º": 0,
+                "7º": 0,
+                "8º": 0,
+                "9º": 0
+            }
+        },
+        {
+            "nivel": 10,
+            "bonus_proficiencia": 4,
+            "habilidades": [
+                "Característica de Ocultismo"
+            ],
+            "truques_conhecidos": 4,
+            "magias_conhecidas": 11,
+            "slots_magia": {
+                "1º": 4,
+                "2º": 3,
+                "3º": 3,
+                "4º": 3,
+                "5º": 2,
+                "6º": 0,
+                "7º": 0,
+                "8º": 0,
+                "9º": 0
+            }
+        },
+        {
+            "nivel": 11,
+            "bonus_proficiencia": 4,
+            "habilidades": [
+                "Animar Morto Maior"
+            ],
+            "truques_conhecidos": 4,
+            "magias_conhecidas": 12,
+            "slots_magia": {
+                "1º": 4,
+                "2º": 3,
+                "3º": 3,
+                "4º": 3,
+                "5º": 2,
+                "6º": 1,
+                "7º": 0,
+                "8º": 0,
+                "9º": 0
+            }
+        },
+        {
+            "nivel": 12,
+            "bonus_proficiencia": 4,
+            "habilidades": [
+                "Aumento no Valor de Habilidade"
+            ],
+            "truques_conhecidos": 4,
+            "magias_conhecidas": 12,
+            "slots_magia": {
+                "1º": 4,
+                "2º": 3,
+                "3º": 3,
+                "4º": 3,
+                "5º": 2,
+                "6º": 1,
+                "7º": 0,
+                "8º": 0,
+                "9º": 0
+            }
+        },
+        {
+            "nivel": 13,
+            "bonus_proficiencia": 5,
+            "habilidades": [],
+            "truques_conhecidos": 4,
+            "magias_conhecidas": 13,
+            "slots_magia": {
+                "1º": 4,
+                "2º": 3,
+                "3º": 3,
+                "4º": 3,
+                "5º": 2,
+                "6º": 1,
+                "7º": 1,
+                "8º": 0,
+                "9º": 0
+            }
+        },
+        {
+            "nivel": 14,
+            "bonus_proficiencia": 5,
+            "habilidades": [
+                "Característica de Ocultismo"
+            ],
+            "truques_conhecidos": 4,
+            "magias_conhecidas": 13,
+            "slots_magia": {
+                "1º": 4,
+                "2º": 3,
+                "3º": 3,
+                "4º": 3,
+                "5º": 2,
+                "6º": 1,
+                "7º": 1,
+                "8º": 0,
+                "9º": 0
+            }
+        },
+        {
+            "nivel": 15,
+            "bonus_proficiencia": 5,
+            "habilidades": [
+                "Aprimoramento de Animar Morto Maior"
+            ],
+            "truques_conhecidos": 4,
+            "magias_conhecidas": 14,
+            "slots_magia": {
+                "1º": 4,
+                "2º": 3,
+                "3º": 3,
+                "4º": 3,
+                "5º": 2,
+                "6º": 1,
+                "7º": 1,
+                "8º": 1,
+                "9º": 0
+            }
+        },
+        {
+            "nivel": 16,
+            "bonus_proficiencia": 5,
+            "habilidades": [
+                "Aumento no Valor de Habilidade"
+            ],
+            "truques_conhecidos": 4,
+            "magias_conhecidas": 14,
+            "slots_magia": {
+                "1º": 4,
+                "2º": 3,
+                "3º": 3,
+                "4º": 3,
+                "5º": 2,
+                "6º": 1,
+                "7º": 1,
+                "8º": 1,
+                "9º": 0
+            }
+        },
+        {
+            "nivel": 17,
+            "bonus_proficiencia": 6,
+            "habilidades": [],
+            "truques_conhecidos": 4,
+            "magias_conhecidas": 15,
+            "slots_magia": {
+                "1º": 4,
+                "2º": 3,
+                "3º": 3,
+                "4º": 3,
+                "5º": 2,
+                "6º": 1,
+                "7º": 1,
+                "8º": 1,
+                "9º": 1
+            }
+        },
+        {
+            "nivel": 18,
+            "bonus_proficiencia": 6,
+            "habilidades": [
+                "Aprimoramento de Animar Morto Maior"
+            ],
+            "truques_conhecidos": 4,
+            "magias_conhecidas": 15,
+            "slots_magia": {
+                "1º": 4,
+                "2º": 3,
+                "3º": 3,
+                "4º": 3,
+                "5º": 3,
+                "6º": 2,
+                "7º": 1,
+                "8º": 1,
+                "9º": 1
+            }
+        },
+        {
+            "nivel": 19,
+            "bonus_proficiencia": 6,
+            "habilidades": [
+                "Aumento no Valor de Habilidade"
+            ],
+            "truques_conhecidos": 4,
+            "magias_conhecidas": 15,
+            "slots_magia": {
+                "1º": 4,
+                "2º": 3,
+                "3º": 3,
+                "4º": 3,
+                "5º": 3,
+                "6º": 2,
+                "7º": 2,
+                "8º": 1,
+                "9º": 1
+            }
+        },
+        {
+            "nivel": 20,
+            "bonus_proficiencia": 6,
+            "habilidades": [
+                "Macabro"
+            ],
+            "truques_conhecidos": 4,
+            "magias_conhecidas": 15,
+            "slots_magia": {
+                "1º": 4,
+                "2º": 3,
+                "3º": 3,
+                "4º": 3,
+                "5º": 3,
+                "6º": 2,
+                "7º": 2,
+                "8º": 2,
+                "9º": 1
+            }
+        }
+    ],
+    "features_details": [
+        {
+            "name": "Infusão Necrótica",
+            "level": 1,
+            "effect": "Como uma ação, escolha uma criatura a até 4,5 metros. Se for um morto-vivo sob seu controle, ela recupera 1d8 + modificador de Carisma em pontos de vida. Caso contrário, o alvo deve fazer um teste de resistência de Constituição ou sofrer dano necrótico igual a 1d8 + modificador de Carisma.",
+            "uses": "Modificador de Carisma (mínimo 1) por descanso longo",
+            "scaling": "Aumenta para 2d8 no nível 5, 3d8 no nível 11 e 4d8 no nível 17"
+        },
+        {
+            "name": "Colheita de Almas",
+            "level": 3,
+            "effect": "Você recebe pontos de vida temporários iguais ao modificador de Constituição do alvo + seu nível de Necromante ao reduzir uma criatura a 0 pontos de vida (seja você ou um morto-vivo sob seu controle)."
+        },
+        {
+            "name": "Exumação Espontânea",
+            "level": 5,
+            "effect": "Você aprende Animar Mortos. Pode conjurá-la como uma ação, sem precisar de um cadáver visível, desde que haja restos mortais nas proximidades (como um cemitério, ossário, etc.)."
+        },
+        {
+            "name": "Animar Morto Maior",
+            "level": 11,
+            "effect": "Você pode erguer criaturas de tamanho Enorme ou menor (ND 5 ou menos) como um Morto-Vivo Maior. Ela recebe modificações como esqueleto ou zumbi.",
+            "restrictions": "Apenas um Morto-Vivo Maior por vez. É necessário um descanso longo para usar novamente, a menos que esteja reafirmando o controle do mesmo morto-vivo."
+        },
+        {
+            "name": "Macabro",
+            "level": 20,
+            "effect": "Habilidade final e suprema (detalhes não incluídos no texto fornecido)."
+        }
+    ],
+    "spellcasting": {
+        "cantrips": {
+            "known_at_1st_level": 2,
+            "increase_at_levels": [
+                4,
+                10
+            ]
+        },
+        "spell_slots": "Conforme a tabela",
+        "spells_known": "Começa com 2 no 1º nível, aumentando conforme o nível",
+        "spellcasting_ability": "Carisma",
+        "spell_save_dc": "8 + bônus de proficiência + modificador de Carisma",
+        "spell_attack_modifier": "bônus de proficiência + modificador de Carisma",
+        "ritual_casting": true,
+        "spellcasting_focus": "Foco arcano"
+    },
+    "subclasses": [
+        "Guardião",
+        "Ceifador",
+        "Coveiro",
+        "Médico Bruxo"
+    ]
+}
