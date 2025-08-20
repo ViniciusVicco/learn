@@ -1,7 +1,7 @@
 import 'package:get_it/get_it.dart';
 import 'package:learn/core/module/manager/module_manager.dart';
 
-mixin MethodsInjector {
+abstract class InjectorMethods {
   final _i = GetIt.instance;
 
   void registerSingleton<T extends Object>(T object) {

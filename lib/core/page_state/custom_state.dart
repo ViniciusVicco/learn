@@ -5,6 +5,6 @@ import 'package:learn/core/module/store.dart';
 
 abstract class CustomPageState<C extends Controller, S extends Store>
     extends State {
-  C get controller => GetIt.instance.get<C>();
   S get store => GetIt.instance.get<S>();
+  C get controller => GetIt.instance.get<C>();
 }

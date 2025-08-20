@@ -1,13 +1,14 @@
 import 'package:get_it/get_it.dart';
-import 'package:learn/app/presentation/home/pages/home_controller.dart';
-import 'package:learn/app/presentation/home/pages/home_store.dart';
+import 'package:learn/app/presentation/menu/pages/menu/menu_page_controller.dart';
+import 'package:learn/app/presentation/menu/pages/menu/menu_store.dart';
 import 'package:learn/core/dependency_injection/dependency_injection.dart';
 
-class HomeInjector extends ModuleInjector {
+class MenuInjector extends ModuleInjector {
   @override
   void controllers() {
     registerFactory(
-        () => HomeController(store: GetIt.instance.get<HomeStore>()));
+      () => MenuPageController(store: GetIt.instance.get<MenuStore>()),
+    );
   }
 
   @override
@@ -27,7 +28,7 @@ class HomeInjector extends ModuleInjector {
 
   @override
   void stores() {
-    registerSingleton(HomeStore());
+    registerSingleton(MenuStore());
   }
 
   @override

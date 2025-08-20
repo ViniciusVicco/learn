@@ -1,6 +1,6 @@
 import 'package:learn/core/dependency_injection/mixin/injector_methods_mixin.dart';
 
-abstract class ModuleInjector with MethodsInjector {
+abstract class ModuleInjector extends InjectorMethods {
   void registerModule() {
     queueInstanciation();
   }
@@ -14,7 +14,7 @@ abstract class ModuleInjector with MethodsInjector {
     controllers();
   }
 
-  void stores();
+  void stores(); // Armazena valores em tempo de execução
 
   void core();
 

@@ -5,10 +5,10 @@ import 'package:flutter/material.dart';
 
 /// Classe base para os módulos
 abstract class Module<M extends ModuleInjector> {
-  late final M module;
+  late final M injector;
 
   Module() {
-    module = createInjector();
+    injector = createInjector();
     debugPrint("Initialized: ${runtimeType.toString()}");
   }
 
@@ -30,6 +30,7 @@ class ModuleManager {
   void _initModules() {
     for (var module in modules) {
       module.createInjector();
+      module.injector.registerModule();
     }
   }
 
