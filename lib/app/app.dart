@@ -4,8 +4,9 @@ import 'package:learn/core/module/manager/module_manager.dart';
 
 class App extends StatelessWidget {
   final ModuleManager moduleManager;
+  final Widget home;
 
-  const App(this.moduleManager, {super.key});
+  const App(this.moduleManager, {super.key, required this.home});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +21,8 @@ class App extends StatelessWidget {
         ),
       ),
       routes: moduleManager.allRoutes,
-      home: LoadingPage(),
+      home: home,
+      //home: LoadingPage(),
     );
   }
 }
